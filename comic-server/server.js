@@ -18,7 +18,7 @@ app.get("/comics", async (req, res) => {
 });
 
 app.get("/comic/:id", async (req, res) => {
-  const id = req.query.id;
+  const { id } = req.params;
   const response = await fetch(
     `https://comicvine.gamespot.com/api/issue/4000-${id}/?api_key=${process.env.API_KEY}&format=json`
   );
