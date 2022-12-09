@@ -8,3 +8,11 @@
 .comic-img:hover {
   cursor: pointer;
 }
+
+.comic-list-card {
+  display: flex;
+  margin: 25px;
+  justify-content: space-evenly;
+  gap: 25px;
+  width: 75%;
+}

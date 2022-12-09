@@ -12,18 +12,23 @@ const ComicListCard = ({ comic }) => {
   };
 
   return (
-    <div>
-      <img
-        className="comic-img"
-        src={imageSrc}
-        alt={`comic-${id}`}
-        onClick={handleImgClick}
-      />
-      <p>
-        {name} #{issue_number}
-      </p>
-      <span>{date_added}</span>
-    </div>
+    <>
+      <div className="comic-list-card">
+        <img
+          className="comic-img"
+          src={imageSrc}
+          alt={`comic-${id}`}
+          onClick={handleImgClick}
+        />
+        <div>
+          <p>
+            {name} #{issue_number}
+          </p>
+          <span>{date_added}</span>
+        </div>
+      </div>
+      <hr />
+    </>
   );
 };
 
