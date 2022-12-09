@@ -16,3 +16,7 @@
   gap: 25px;
   width: 75%;
 }
+
+.card-name {
+  font-weight: bold;
+}

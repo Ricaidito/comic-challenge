@@ -21,10 +21,10 @@ const ComicListCard = ({ comic }) => {
           onClick={handleImgClick}
         />
         <div>
-          <p>
+          <p className="card-name">
             {name} #{issue_number}
           </p>
-          <span>{date_added}</span>
+          <span>Issue added on: {date_added}</span>
         </div>
       </div>
       <hr />

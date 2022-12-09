@@ -8,3 +8,11 @@
 .comic-img:hover {
   cursor: pointer;
 }
+
+.comic-grid-card {
+  flex: 1 1 10%;
+}
+
+.card-name {
+  font-weight: bold;
+}
