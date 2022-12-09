@@ -13,7 +13,7 @@ const MainView = () => {
   }, []);
 
   return (
-    <div className="App">
+    <div>
       <h1>ComicBook</h1>
       <h2>Lastest Issues</h2>
       {comicsList}
