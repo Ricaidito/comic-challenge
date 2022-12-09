@@ -19,7 +19,7 @@ const ComicDetail = () => {
   return (
     <div>
       <h1>ComicBook</h1>
-      <img src={comic.image.original_url} alt="comic-image" />
+      <img src={comic.image?.original_url} alt="comic-image" />
       <p>Given id: {comicId}</p>
     </div>
   );
