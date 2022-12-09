@@ -4,3 +4,7 @@
   border: 5px solid black;
   border-radius: 5px;
 }
+
+.comic-img:hover {
+  cursor: pointer;
+}
